@@ -1,0 +1,20 @@
+.home-container {
+  background: url(../images/image7.webp);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.home-list {
+  color: var(--mainYellow);
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 1.5rem;
+  font-family: "Times New Roman", Times, serif;
+  
+
+}

@@ -1,0 +1,15 @@
+POST http://localhost:3000/api/products
+Content-Type: x-auth-token
+
+{
+ "bizPrice":76,
+ "bizCompany":"ABI",
+ "bizTitle":"style alive",
+ "bizCount":"87",
+ "bizTotal":"90",   
+}
+
+
+
+####
+GET http://localhost:300/api/products/all-products
