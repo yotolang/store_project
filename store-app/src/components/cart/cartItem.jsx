@@ -48,7 +48,7 @@ function CartItem({ value, item }) {
       </div>
 
       <div className="col-10 mx-auto col-lg-2">
-        <stong>item total : $ {bizTotal}</stong>
+        <span className="text-blue">item total : $ {bizTotal}</span>
       </div>
     </div>
   );

@@ -1,5 +1,4 @@
 import React from "react";
-import Modul from "./components/modul";
 
 import productService from "./services/productService";
 

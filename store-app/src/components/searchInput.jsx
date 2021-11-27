@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 class SearchInput extends React.Component {
   render() {
     const { val } = this.props;

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Title from "./common/PageTitle";
 import "../style/homestyle.css";
 
@@ -17,7 +17,7 @@ class Home extends React.Component {
               <li>
                 to start shopping sign up or login ...{" "}
                 <Link to="/sign-in">
-                  <i class="bi bi-door-open text-dark"></i>
+                  <i className="bi bi-door-open text-dark"></i>
                 </Link>
               </li>
 
@@ -25,7 +25,7 @@ class Home extends React.Component {
                 to creat a product and jouin the store-app creat a business
                 account !
                 <Link to="/sign-up">
-                  <i class="bi bi-briefcase text-dark ms-3"></i>
+                  <i className="bi bi-briefcase text-dark ms-3"></i>
                 </Link>
               </li>
             </ul>

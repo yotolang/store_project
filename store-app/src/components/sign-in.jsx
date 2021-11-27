@@ -5,8 +5,6 @@ import Joi from "joi";
 import userService from "../services/user";
 import { Redirect } from "react-router-dom";
 import profile1 from "../images/user1.webp";
-import profile3 from "../images/user3.webp";
-import profile4 from "../images/user4.webp";
 
 class Signin extends Form {
   state = {
@@ -38,8 +36,7 @@ class Signin extends Form {
     if (userService.getCurrentUser()) {
       return <Redirect to="/story" />;
     }
-    const image = <img src={profile3} alt="profile" className="email" />;
-    const image1 = <img src={profile4} className="email" alt="email" />;
+
     return (
       <>
         <Title title="Signin " />
